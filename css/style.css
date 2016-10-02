@@ -1,0 +1,254 @@
+@font-face {
+	font-family: 'Roboto-BoldCondensed';
+	src: url('../fonts/Roboto-BoldCondensed.ttf');
+}
+
+@font-face {
+	font-family: 'DIN-Light';
+	src: url('../fonts/DIN-Light.ttf');
+}
+
+@font-face {
+	font-family: 'DIN-Bold';
+	src: url('../fonts/DIN-Bold.ttf');
+}
+
+@font-face {
+	font-family: 'Anton';
+	src: url('../fonts/Anton.ttf');
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.42857143;
+  color: #4d4d4d;
+  background-color: #fafafa;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  word-wrap: break-word;
+}
+
+.parte1 {
+	font-family: 'Roboto-BoldCondensed';
+}
+
+.intro{
+	font-family: 'Anton'
+}
+
+.col-xs-11 {
+	font-family: 'DIN-Light';
+}
+
+.col-xs-11 h1, h2, h3, h4 {
+	font-family: 'DIN-Bold';
+}
+
+#introduction1 {
+	color: #b0d172;
+	/*margin-top: 5vh;*/
+	font-size:50px;
+	/*margin-left: 50px;*/
+	text-align: center;
+}
+
+#introduction2 {
+	color: #b0d172;
+	/*margin-top: 5vh;*/
+	font-size:50px;
+	/*margin-left: 50px;*/
+	text-align: center;
+}
+
+#departament {
+	color: #e0e79a;
+	/*margin-top: 5vh;*/
+	font-size:30px;
+	/*margin-left: 50px;*/
+	text-align: center;
+}
+
+#institution {
+	color: #ffffff;
+	/*margin-top: 5vh;*/
+	font-size:20px;
+	/*margin-left: 50px;*/
+	text-align: center;
+}
+
+#imagen {
+	margin-top: 5vh;
+	/*text-align: center;*/
+}
+
+#resumen {
+	margin-top: 5vh;
+	margin-left: 100px;
+}
+
+#sketch {
+	text-align: center;	
+}
+
+.footer {
+	background-color: black;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/* button ##################################################################################*/
+
+.plone-nav {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.plone-nav > li {
+  position: relative;
+  display: block;
+}
+
+.plone-nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  color: white;
+  font-size: 17px; 
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.plone-nav > li > a:hover,
+.plone-nav > li > a:focus {
+  text-decoration: none;
+  background-color: #263669;
+}
+
+.plone-navbar {
+  background-color: #0a528d;
+  color: white;
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.17);
+}
+
+.plone-navbar:before,
+.plone-navbar:after {
+  content: " ";
+  display: table;
+}
+
+.plone-navbar:after {
+  clear: both;
+}
+
+
+.plone-navbar-nav {
+  margin: -1px -15px -1px;
+}
+
+.plone-navbar-nav > li > a {
+	padding-top: 10px;
+  	padding-bottom: 10px;
+  	line-height: 20px;
+}
+
+.plone-navbar-nav > .selected > a,
+.plone-navbar-nav > .selected > a:hover,
+.plone-navbar-nav > .selected > a:focus {
+  color: white;
+  background-color: #263669;
+}
+
+.plone-navbar-nav {
+    float: left;
+}
+
+.plone-navbar-nav > li {
+    float: left;
+}
+
+.plone-navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.plone-navbar-nav.navbar-right:last-child {
+    margin-right: -15px;
+}
+
+.plone-navbar-nav li ul
+{
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+
+.documentFirstHeading {
+  padding-bottom: 9px;
+  margin: 0 0 10px;
+  border-bottom: 1px solid #cccccc;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 1.1;
+  color: inherit;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h1 a:focus,
+h2 a:focus,
+h3 a:focus {
+  text-decoration: none;
+  border-bottom: 2px #004666 solid;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.row {
+  margin-left: 105px;
+  margin-right: 105px;
+}
